@@ -17,6 +17,11 @@
   width: 60%;
 }
 
+.profile-image{
+  max-width: 50%;
+  border-radius: 50%;
+}
+
 .navbar {
   background-color: transparent !important;
 }
@@ -25,10 +30,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.profile-image {
-  border-radius: 100%;
 }
 
 .main-title {
@@ -167,21 +168,11 @@ a:hover {
 }
 
 @media (max-width: 991px) {
-  .profile-image {
-    border-radius: 50%;
-    min-width: 25%;
-    max-width: 40%;
-    margin-top: 5%;
-  }
+
 }
 
 @media (max-width: 768px) {
-  .profile-image {
-    border-radius: 50%;
-    min-width: 30%;
-    max-width: 50%;
-    margin-top: 5%;
-  }
+
   .map-marker {
     font-size: 1.5rem !important;
   }
@@ -193,12 +184,6 @@ a:hover {
   }
   .main-logo {
     width: 50%;
-  }
-
-  .profile-image {
-    border-radius: 50%;
-    min-width: 35%;
-    max-width: 50%;
   }
   .main-title > h5 {
     text-align: center;
