@@ -184,12 +184,6 @@ a:hover {
   .map-marker {
     font-size: 1.5rem !important;
   }
-  .map-icon {
-    text-align: center;
-  }
-  .icon-text2 > .icon-para {
-    text-align: center;
-  }
 }
 
 @media (max-width: 500px) {
