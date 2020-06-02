@@ -37,6 +37,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 2%;
 }
 
 .main-title > h5 {
@@ -50,6 +51,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 
 .designation-title > h6 {
@@ -184,39 +187,63 @@ a:hover {
   .map-marker {
     font-size: 1.5rem !important;
   }
-<<<<<<< HEAD
-  .icon-text2 > .icon-para {
-    text-align: center;
-  }
-=======
->>>>>>> 35a82dfb79e9cd24f338df6d7e634d5835f6cd9b
 }
 
 @media (max-width: 500px) {
   .is-boxed {
     border: 15px solid #ffb289;
   }
+  .main-logo {
+    width: 50%;
+  }
+
   .profile-image {
     border-radius: 50%;
-    min-width: 40%;
+    min-width: 35%;
     max-width: 50%;
-    margin-top: 5%;
   }
   .main-title > h5 {
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: #ff6513;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+    margin-top: 5%;
   }
   .designation-title > h6 {
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: #000;
     font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 2%;
+  }
+
+  .icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
     font-size: 1rem;
   }
+
+  .icon-para {
+    margin-bottom: 0.3rem;
+  }
+  .card-body {
+    padding: 0 !important;
+  }
+
   .location > .icon-para {
     margin-top: 20px !important;
   }
+  
+  .address-para{
+    font-size: 0.9rem;
+    width: 85%;
+  }
+
+  .save-btn{
+    font-size: 0.85rem;
+  }
+
 }
